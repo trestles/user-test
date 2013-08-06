@@ -1,0 +1,5 @@
+
+My Name is: <%=@user.name %><br /><br />
+<% @user.messages.each do |msg| %>
+  <%=msg.content %><br />
+<% end %>
